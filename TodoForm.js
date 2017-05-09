@@ -1,18 +1,21 @@
-const TodoForm = ({addTodo}) => {
+class TodoForm extends Component{
 
-    let input;
+    const TodoForm = ({addTodo}) => {
 
-    return (
-        <div>
-        <input ref={node => {
-            input = node;
-        }} />
-        <button onClick={() => {
-            addTodo(input.value);
-            input.value = '';
-        }}>
-            +
-        </button>
-        </div>
-    );
-};
+        let input;
+
+        return (
+            <div>
+            <input ref={node => {
+                input = node;
+            }} />
+            <button onClick={() => {
+                addTodo(input.value);
+                input.value = '';
+            }}>
+                +
+            </button>
+            </div>
+        );
+    };
+}
