@@ -10,5 +10,9 @@ Lets get started
 In order to set up your environment just run the following commands
 
 ```
-
+npm install
+create-react-app *name*
+npm start
 ```
+
+Lets get developing
