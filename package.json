@@ -1,0 +1,28 @@
+{
+  "name": "todo-honors",
+  "version": "1.0.0",
+  "description": "A webserver and a react app",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ndneighbor/todo-honors.git"
+  },
+  "keywords": [
+    "tutorial"
+  ],
+  "author": "FIU Honors",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ndneighbor/todo-honors/issues"
+  },
+  "homepage": "https://github.com/ndneighbor/todo-honors#readme",
+  "dependencies": {
+    "axios": "^0.16.1",
+    "create-react-app": "^1.3.0",
+    "react": "^15.5.4",
+    "react-dom": "^15.5.4"
+  }
+}
